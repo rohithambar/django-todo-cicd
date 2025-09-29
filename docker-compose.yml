@@ -5,5 +5,5 @@ services:
     ports:
       - "8001:8001"
     volumes:
-      - ./db.sqlite3:/app/db.sqlite3
-      - ./staticfiles:/app/staticfiles
+      - ./db.sqlite3:/db.sqlite3
+      - ./staticfiles:/staticfiles
